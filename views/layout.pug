@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title= title
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='//unpkg.com/leaflet@1.6.0/dist/leaflet.css')
+    link(rel='stylesheet', href='/css/bulma-min.css')
+    script(src='//cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js')
+    link(rel='stylesheet', href='https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css')
+    script(src='//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js')
+    link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Jim+Nightshade&display=swap')
+    link(rel='stylesheet', href='/css/style.css')
+    script(src='https://unpkg.com/leaflet@1.6.0/dist/leaflet.js')
+    script(defer, src='//use.fontawesome.com/releases/v5.3.1/js/all.js')
+  body
+    include includes/nav.pug
+    block content
+
+    footer(class='footer')
+      div(class='content has-text-centered')
+        p 
+        | All content licensed under a 
+        a(href='//creativecommons.org/licenses/by-nc-sa/4.0/') CC BY-NC license 
+        | unless noted otherwise.
+  
+    script(defer, src='/js/main.js')

@@ -1,0 +1,32 @@
+.hero.is-info.is-bold {
+    background-image: url('/images/lilies-detail.png');
+    background-size: cover;
+    text-align: center;
+}
+
+.woodslake-home {
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+.title {
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 100px;
+}
+
+.subtitle {
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 45px;
+}
+
+.navbar-item {
+    font-family: 'Jim Nightshade', cursive;
+    font-size: 25px;
+}
+
+#mapid {
+    height: 600px;
+}
