@@ -21,5 +21,9 @@ router.get('/gallery', function(req, res, next) {
   res.render('gallery', { title: 'Gallery' })
 });
 
+router.get('/pkwd', function(req, res, next) {
+  res.render('pkwd/pkwd', { title: 'PKWD SUMMER GETAWAY 2020'})
+});
+
 
 module.exports = router;

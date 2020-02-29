@@ -1,0 +1,22 @@
+body {
+    font-family: 'serif';
+    color: yellow;
+    background-image: url('/images/pkwd/ss036.gif');
+    line-height: 1.5em;
+}
+
+.header-area {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: red;
+}
