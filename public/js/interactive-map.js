@@ -16,11 +16,9 @@
     
         const woodsLakePark = L.marker([42.262488, -85.612571]).addTo(myMap)
         const kensington = L.marker([42.261047, -85.619223]).addTo(myMap)
-        const oakwood = L.marker([42.260812, -85.615439]).addTo(myMap)
     
         woodsLakePark.bindPopup('<strong>Woods Lake</strong>')
         kensington.bindPopup('<strong>Kensington Park</strong>')
-        oakwood.bindPopup('<strong>Oakwood Memorial Beach</strong>')
     }
 
     mapInit();
